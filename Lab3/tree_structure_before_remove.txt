@@ -1,0 +1,98 @@
+.
+├── class-activity1
+│   ├── copyfilesyscall
+│   ├── copyfilesyscall.c
+│   ├── copyresult.txt
+│   ├── result.txt
+│   ├── syscall
+│   ├── syscall.c
+│   └── syscall_command_history.txt
+├── class-activity2
+│   ├── command_used_forkchild.txt
+│   ├── forkchild
+│   ├── forkchild.c
+│   ├── mspaint
+│   ├── mspaint.c
+│   └── result_forkchild.txt
+├── Desktop
+│   └── TPOS
+├── Document
+│   └── TP01
+│       └── file.txt
+├── Documents
+├── file1
+├── lab1
+│   └── labFiles
+│       ├── doc1.txt
+│       └── doc2.txt
+├── lab2
+│   ├── ex1
+│   │   ├── etc
+│   │   │   ├── network
+│   │   │   │   └── interfaces
+│   │   │   ├── systemd
+│   │   │   │   ├── resolve.conf
+│   │   │   │   ├── system
+│   │   │   │   ├── system.conf
+│   │   │   │   ├── user
+│   │   │   │   └── user.conf
+│   │   │   └── udev
+│   │   │       ├── rules.d
+│   │   │       └── udev.conf
+│   │   ├── ex1_command_history.txt
+│   │   ├── home
+│   │   │   ├── lost+found
+│   │   │   └── user
+│   │   │       └── Documents
+│   │   └── result.txt
+│   └── ex2
+│       └── ex2_command_history.txt
+└── Lab3
+    ├── backup
+    ├── CopyingFolder
+    │   ├── copied.txt
+    │   ├── five.txt
+    │   ├── four.txt
+    │   ├── one.txt
+    │   ├── three.txt
+    │   └── two.txt
+    ├── Desktop
+    │   ├── CopyingFolder
+    │   │   ├── copied.txt
+    │   │   ├── five.txt
+    │   │   ├── four.txt
+    │   │   ├── one.txt
+    │   │   ├── three.txt
+    │   │   └── two.txt
+    │   └── FrenchFolder
+    ├── Documents
+    ├── link_lab
+    │   ├── hardlink.txt
+    │   ├── original.txt
+    │   └── symlink.txt
+    ├── logs
+    │   ├── logs20230101.txt
+    │   ├── logs20230102.txt
+    │   ├── logs20230103.txt
+    │   ├── logs20230104.txt
+    │   └── logs20230105.txt
+    ├── MoveFolder
+    ├── tree_structure_after_remove.txt
+    ├── tree_structure_before_remove.txt
+    ├── wildcardex1_command_history.txt
+    ├── wildcardex2_command_history.txt
+    ├── wildcardex3_command_history.txt
+    ├── wildcardex4_command_history.txt
+    └── Wildcard_lab
+        ├── 1file.txt
+        ├── 2file.txt
+        ├── 3file.txt
+        ├── abc.txt
+        ├── ab.txt
+        ├── data.csv
+        ├── file1.txt
+        ├── file2.txt
+        ├── file3.txt
+        └── xyz.log
+
+35 directories, 61 files

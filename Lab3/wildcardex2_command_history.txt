@@ -1,0 +1,766 @@
+    1  ssh gic-sreng-sopheakanha@192.168.21.203
+    2  sudo apt install tree
+    3  wsl -u root
+    4  sudo apt install tree
+    5  ssh gic-sreng-sopheakanha@192.168.22.122
+    6  sudo apt install tree
+    7  ls
+    8  /home#
+    9  pwd
+   10  cd Desktop
+   11  cd This PC
+   12  cd /This PC#
+   13  cd .
+   14  cd This PC
+   15  cd ..
+   16  cd This PC
+   17  cd /This PC
+   18  cd THISPC
+   19  /THISPC
+   20  ./THISPC#
+   21  cd ~/THISPC
+   22  cd ~/kanha
+   23  cd ..
+   24  cd ~/THISPC
+   25  cd ..
+   26  cd ~/home
+   27  cd Desktop
+   28  cd ~/kanha
+   29  cd ~/home
+   30  cd home
+   31  cd ThISPC
+   32  cd Downloads
+   33  cd ~/Downloads
+   34  cd /Downloads
+   35  pwd
+   36  cd ..
+   37  cd ...
+   38  cd ..
+   39  cd Desktop
+   40  cd kanha
+   41  cd home/THISPC
+   42  clear
+   43  cd /home/THISPC
+   44  cd network
+   45  cd mnt/d
+   46  ls
+   47  cd /mnt/d/year4
+   48  ld
+   49  ls
+   50  cd kanha
+   51  ls
+   52  cd OS
+   53  ls
+   54  cd lb
+   55  cd lab
+   56  ls
+   57  cd 2
+   58  mkdir LAB2
+   59  cd LAB2
+   60  mkdir ex1
+   61  tree
+   62  mkdir etc
+   63  cd ex1
+   64  tree
+   65  cd ..
+   66  tree
+   67  mv etc ex2
+   68  ls
+   69  cd etc
+   70  cd ex1
+   71  mkdir etc
+   72  ls
+   73  tree
+   74  cd ..
+   75  tree
+   76  cd ex1
+   77  mkdir ex1_command_history.txt
+   78  mkdir home
+   79  mkdir result.txt
+   80  tree
+   81  cd ..
+   82  tree
+   83  cd ex2
+   84  mkdir ex2_command_history.txt
+   85  cd ..
+   86  tree
+   87  cd ex1
+   88  cd etc
+   89  mkdir network
+   90  mkdir systemd
+   91  mkdir udev
+   92  tree
+   93  cd network
+   94  mkdir interfaces
+   95  cd ..
+   96  cd systemd
+   97  mkdir resolved.conf
+   98  mkdir system
+   99  mkdir system.conf
+  100  mkdir user
+  101  mkdir user.conf
+  102  ls
+  103  cd ..
+  104  tree
+  105  cd udev
+  106  mkdir rules.d
+  107  mkdir udev.conf
+  108  cd ..
+  109  tree
+  110  cd ..
+  111  tree
+  112  cd home
+  113  mkdir lost+found
+  114  mkdir user
+  115  cd user
+  116  mkdir documents
+  117  cd ..
+  118  tree
+  119  ssh gic-sreng-sopheakanha@192.168.22.122
+  120  cd mnt/d
+  121  cd /mnt/d
+  122  ls
+  123  clear
+  124  sudo apt update 
+  125  sudo apt upgrade -y
+  126  sudo apt-get update
+  127  tree
+  128  mkdir downloads
+  129  cd downloads
+  130  sudo apt install mysql-server -y
+  131  ls
+  132  sudo apt install mysql-server -y
+  133  sudo apt update
+  134  cd ..
+  135  sudo apt update
+  136  sudo apt upgrade-y
+  137  sudo apt upgrade -y
+  138  sudo apt--fixing-missing
+  139  sudo apt-get --fixing-missing
+  140  sudo apt --fixing-missing
+  141  sudo apt --fix-missing
+  142  sudo apt-get update
+  143  sudo apt upgrade -y
+  144  sudo apt-get update
+  145  sudo apt update
+  146  lsb_release -a
+  147  sudo nano /etc/apt/sources.list
+  148  sudo apt clean
+  149  sudo apt update
+  150  sudo apt upgrade -y
+  151  lsb_release -a
+  152  sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+  153  sudo tee /etc/apt/sources.list > /dev/null <<'EOF'
+  154  deb http://archive.ubuntu.com/ubuntu noble main restricted universe multiverse
+  155  deb http://archive.ubuntu.com/ubuntu noble-updates main restricted universe multiverse
+  156  deb http://archive.ubuntu.com/ubuntu noble-backports main restricted universe multiverse
+  157  deb http://security.ubuntu.com/ubuntu noble-security main restricted universe multiverse
+  158  EOF
+  159  sudo tee /etc/apt/sources.list > /dev/null <<'EOF'
+  160  deb http://archive.ubuntu.com/ubuntu noble main restricted universe multiverse
+  161  deb http://archive.ubuntu.com/ubuntu noble-updates main restricted universe multiverse
+  162  deb http://archive.ubuntu.com/ubuntu noble-backports main restricted universe multiverse
+  163  deb http://security.ubuntu.com/ubuntu noble-security main restricted universe multiverse
+  164  EOF
+  165  sudo apt clean
+  166  sudo apt update
+  167  sudo apt install mysql-server -y
+  168  sudo apt upgrade-y
+  169  sudo apt upgrade -y
+  170  ping -c 4 google.com
+  171  sudo tee /etc/apt/sources.list > /dev/null <<'EOF'
+  172  deb http://azure.archive.ubuntu.com/ubuntu noble main restricted universe multiverse
+  173  deb http://azure.archive.ubuntu.com/ubuntu noble-updates main restricted universe multiverse
+  174  deb http://azure.archive.ubuntu.com/ubuntu noble-backports main restricted universe multiverse
+  175  deb http://security.ubuntu.com/ubuntu noble-security main restricted universe multiverse
+  176  EOF
+  177  sudo apt clean
+  178  sudo apt update
+  179  sudo apt list --upgradable
+  180  sudo apt upgrade -y
+  181  sudo apt-get update
+  182  sudo apt upgrade -y
+  183  sudo apt-get update
+  184  sudo apt upgrade -y
+  185  sudo apt-get update
+  186  sudo apt update
+  187  sudo apt upgrade -y
+  188  sudo apt --fix-missing
+  189  sudo apt-get --fix-missing
+  190  sudo --fix-missing
+  191  --fix-missing
+  192  sudo apt update
+  193  sudo apt upgrade -y
+  194  sudo nano /etc/apt/sources.list
+  195  sudo apt clean
+  196  sudo rm -rf /var/lib/apt/lists/*
+  197  sudo apt update --fix-missing
+  198  sudo apt upgrade -y
+  199  sudo apt install mysql-server -y
+  200  sudo apt update
+  201  apt search mysql-server
+  202  wget https://dev.mysql.com/get/mysql-apt-config_0.8.31-1_all.deb
+  203  wget https://dev.mysql.com/get/mysql-apt-config_0.8.35-1_all.deb
+  204  ping google.com
+  205  wsl --shutdown
+  206  mysql -u root
+  207  sudo apt install mysql-client-core-8.0
+  208  mysql -u -root
+  209  sudo nano /etc/resolv.conf
+  210  ping google.com
+  211  wget https://dev.mysql.com/get/mysql-apt-config_0.8.35-1_all.deb
+  212  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  213  sudo apt update
+  214  sudo apt install mysql-server -y
+  215  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  216  sudo apt update
+  217  sudo apt install mysql-server -y
+  218  apt-cache policy mysql-server
+  219  sudo dpkg-reconfigure mysql-apt-config
+  220  sudo apt update
+  221  sudo apt install mysql-server
+  222  sudo apt install mysql-community-server
+  223  mkdir ~/mysql-deb && cd ~/mysql-deb
+  224  cd ~/mysql-deb
+  225  wget https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-common_8.0.42-1ubuntu24.04_amd64.deb
+  226  wget https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-client_8.0.42-1ubuntu24.04_amd64.deb
+  227  sudo dpkg -i mysql-common_8.0.42-1ubuntu24.04_amd64.deb
+  228  sudo dpkg -i mysql-client_8.0.42-1ubuntu24.04_amd64.deb
+  229  sudo dpkg -i mysql-community-server_8.0.42-1ubuntu24.04_amd64.deb
+  230  sudo apt --fix-broken install
+  231  sudo service mysql start
+  232  sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+  233  sudo service mysql start
+  234  sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+  235  sudo apt clean
+  236  sudo apt update
+  237  cd ..
+  238  sudo apt update
+  239  sudo apt install mariadb-server mariadb-client -y
+  240  sudo service mysql start
+  241  sudo mysql -u root
+  242  sudo mysql -u root -p
+  243  sudo mysql
+  244  ALTER USER 'root'@'localhost' IDENTIFIED VIA mysql_native_password;
+  245  sudo mysql
+  246  mysql -u root -p
+  247  sudo systemctl stop mariadb
+  248  sudo apt purge mariadb-server mariadb-client mariadb-common -y
+  249  sudo apt autoremove -y
+  250  sudo rm -rf /var/lib/mysql /etc/mysql
+  251  wget https://repo.mysql.com/mysql-apt-config_0.8.35-1_all.deb
+  252  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  253  sudo apt update
+  254  sudo apt install mysql-server -y
+  255  sudo apt update
+  256  sudo apt install mysql-server -y
+  257  sudo apt remove --purge mysql-server mysql-client mysql-common mysql-server-core-* mariadb-* -y
+  258  sudo apt autoremove -y
+  259  sudo apt clean
+  260  deb http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0
+  261  deb-src http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0
+  262  cd deb-src http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0
+  263  sudo apt update
+  264  sudo apt install mysql-server mysql-client mysql-server-core-8.0 -y
+  265  sudo apt remove --purge mysql-* mariadb-* -y
+  266  sudo apt autoremove -y
+  267  sudo rm -rf /etc/mysql /var/lib/mysql
+  268  wget https://repo.mysql.com/mysql-apt-config_0.8.35-1_all.deb
+  269  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  270  sudo apt update
+  271  sudo apt install mysql-server mysql-client -y
+  272  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  273  sudo apt update
+  274  sudo apt install mysql-server mysql-client -y
+  275  sudo systemctl stop mariadb
+  276  sudo apt remove --purge mariadb-server mariadb-client mariadb-common mariadb-server-core-* mariadb-client-core-* -y
+  277  sudo apt --fix-broken install -y
+  278  sudo apt update
+  279  sudo apt install mysql-server mysql-client -y
+  280  sudo dpkg --remove --force-remove-reinstreq mysql-server-8.0 mysql-client-8.0 mysql-server-core-8.0 mysql-common
+  281  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  282  sudo dpkg --remove --force-remove-reinstreq mysql-server-8.0 mysql-client-8.0 mysql-server-core-8.0 mysql-common
+  283  sudo apt --fix-broken install -y
+  284  sudo apt remove --purge mariadb-* -y
+  285  sudo apt autoremove -y
+  286  sudo apt clean
+  287  sudo dpkg -r mysql-apt-config
+  288  wget https://repo.mysql.com/mysql-apt-config_0.8.35-1_all.deb
+  289  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  290  sudo apt update
+  291  sudo apt install mysql-server -y
+  292  sudo dpkg --purge mysql-server-8.0 mysql-client-8.0 mysql-server-core-8.0 mysql-common mariadb-server mariadb-client mariadb-common
+  293  sudo apt --fix-broken install -y
+  294  sudo apt autoremove -y
+  295  sudo apt clean
+  296  wget https://repo.mysql.com/mysql-apt-config_0.8.35-1_all.deb
+  297  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  298  sudo apt update
+  299  sudo apt install mysql-server -y
+  300  clear
+  301  lsb_release -a
+  302  sudo apt update
+  303  cat /etc/apt/sources.list
+  304  ls /etc/apt/sources.list.d/
+  305  # /etc/apt/sources.list
+  306  #/etc/apt/sources.list
+  307  sudo rm /etc/apt/sources.list.d/ubuntu.sources
+  308  sudo apt update
+  309  sudo apt list --upgradable
+  310  sudo apt upgrade
+  311  sudo apt update
+  312  sudo apt -upgrade
+  313  sudo apt upgrade
+  314  sudo apt upgrade -y
+  315  sudo apt install mysql-server
+  316  service --status-all
+  317  sudo apt install mysql-server
+  318  service --status-all
+  319  sudo apt install mysql
+  320  sudo apt install mysql-server
+  321  sudo apt list upgradable
+  322  ls
+  323  sudo dpkg -i mysql-apt-config_0.8.35-1_all.deb
+  324  sudo apt update
+  325  sudo apt list --upgradable
+  326  sudo apt install mysql-server
+  327  clear
+  328  sudo systemct1 start mysql
+  329  sudo --status-all
+  330  service --status--all
+  331  service --status-all
+  332  dpkg -l | grep mysql
+  333  sudo systemctl start mysql
+  334  sudo systemctl status mysql
+  335  sudo systemctl enable mysql
+  336  sudo mysql -u root -p
+  337  clear
+  338  exit
+  339  ssh gic-sreng-sopheakanha@192.168.21.87
+  340  ls
+  341  tree
+  342  ls
+  343  tree
+  344  mkdir lab3
+  345  cd lab3
+  346  mkdir CopyingFolder
+  347  cd CoppyingFolder
+  348  cd CopyingFolder
+  349  touch copied.txt
+  350  cd ..
+  351  tree
+  352  mkdir Documents
+  353  cp CopyingFolder Documents/
+  354  cp CopyingFolder/ copied.txt ~Documents/
+  355  tree
+  356  cp CopingFolder/ copied.txt Documents/
+  357  cp CopyingFolder/copied.txt ~/Documents
+  358  tree
+  359  ls
+  360  tree
+  361  cp copied.txt Documents/
+  362  CopyingFolder/ cp copied.txt ~/Documents
+  363  cp CopyingFolder/copied.txt Documents/
+  364  tree
+  365  cd  Documents
+  366  touch {one,two,three,four,five}.txt
+  367  tree
+  368  cd ..
+  369  tree
+  370  cp Documents/{one,two,three,four,five}.txt CopyingFolder/
+  371  tree
+  372  cd Documents
+  373  cd ..
+  374  mkdir Desktop
+  375  cp -r CopyingFolder/ Desktop/
+  376  tree
+  377  cd Documents
+  378  touch {one,two,three,four,five}_document.txt
+  379  tree
+  380  echo > 1 one_document.txt
+  381  echo 1 > one_document.txt
+  382  cat one_document.txt
+  383  nano *.txt
+  384  echo 2 > two-documwnt.txt
+  385  echo 2 > two_document.txt
+  386  cat two_document.txt
+  387  echo 3 ? three_document.txt
+  388  cat three_document.txt
+  389  echo 3 > three_document.txt
+  390  echo 4 > four_document.txt
+  391  echo 5 > five_document.txt
+  392  mv one_document.txt document_un
+  393  ls
+  394  mv document_un document_un.txt
+  395  ls
+  396  mv two_document.txt document_deux.txt
+  397  mn three_document.txt document_trios.txt
+  398  mv three_document.txt document_trios.txt
+  399  cd lab3
+  400  tree
+  401  cd Documents
+  402  rm 1
+  403  cd ..
+  404  tree
+  405  cd lab3
+  406  cd /path/to/tomcat/bin
+  407  sudo apt update
+  408  java -version
+  409  sudo apt install openjdk-17-jdk wget unzip -y
+  410  java -version
+  411  tree
+  412  cd downlaod
+  413  cd Downlaods
+  414  cd Download
+  415  cd downloads
+  416  tree
+  417  sudo wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.30/bin/apache-tomcat-10.1.30.tar.gz
+  418  mkdir opt
+  419  cd opt
+  420  mkdir tomcat
+  421  cd tomcat
+  422  sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.33/bin/apache-tomcat-10.1.33.tar.gz
+  423  sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.48/bin/apache-tomcat-10.1.48.tar.gz
+  424  sudo tar -xvzf apache-tomcat-10.1.48.tar.gz
+  425  sudo mv apache-tomcat-10.1.48 /opt/tomcat
+  426  sudo chmod +x /opt/tomcat/bin/*.sh
+  427  cd ..
+  428  tree
+  429  cd opt
+  430  cd ..
+  431  sudo mv apache-tomcat-10.1.48 /opt/tomcat
+  432  cd opt/tomcat
+  433  tree
+  434  sudo tar -xvzf apache-tomcat-10.1.48.tar.gz
+  435  sudo mv apache-tomcat-10.1.48 tomcat
+  436  ls
+  437  cd tomcat
+  438  ls
+  439  tree
+  440  cd bin
+  441  cd ../../
+  442  cd ./
+  443  cd downloads
+  444  sudo chown -R ubuntu:kanha /opt/tomcat/tomcat
+  445  cd .
+  446  cd ..
+  447  whoami
+  448  cd downloads
+  449  sudo chown -R kanha:kanha /opt/tomcat/tomcat
+  450  ls -l /opt/tomcat
+  451  sudo chown -R kanha:kanha /opt/tomcat
+  452  sudo chmod -R 755 /opt/tomcat
+  453  ls -l /opt/tomcat
+  454  cd .
+  455  cd ..
+  456  cd downloads
+  457  cd /opt/tomcat/bin
+  458  ./startup.sh
+  459  ./shutdown.sh
+  460  ss -tul | grep 8080
+  461  nano /opt/tomcat/conf/server.xml
+  462  ./startup.sh
+  463  ./shutdown.sh
+  464  nano /opt/tomcat/conf/server.xml
+  465  ss -tuln | grep 8080
+  466  cd ..
+  467  ss -tuln | grep 8080
+  468  cat /opt/tomcat/logs/catalina.out
+  469  cd ../../
+  470  cd .
+  471  ip addr show eth0
+  472  ./startup.sh
+  473  cd /opt/tomcat
+  474  cd bin
+  475  ./startup.sh
+  476  ./shutdown.sh
+  477  mysql
+  478  sudo service mysql start
+  479  sudo service mysql status
+  480  sudo mysql
+  481  exit
+  482  sudo mysql
+  483  sudo su
+  484  sudo systemct1 stop mysql
+  485  sudo service mysql status
+  486  sudo systemct1 stop mysql
+  487  sudo service mysql stop
+  488  sudo service mysql status
+  489  mysql -u root -p
+  490  sudo service mysql start
+  491  mysql -u root -p
+  492  sudo service mysql stop
+  493  sudo service mysql status
+  494  clear
+  495  tree
+  496  cd lab3
+  497  tree
+  498  mkdir MoveFolder
+  499  mv Documents /MoveFolder
+  500  sudo mv Documents /MoveFoldere
+  501  tree
+  502  mkdir Documents
+  503  sudo touch {one,two,three,four,five}_document.txt
+  504  tre
+  505  tree
+  506  sudo rm {one,two,three,four,five}_document.txt
+  507  tree
+  508  cd Documents
+  509  sudo touch {one,two,three,four,five}_document.txt
+  510  tree
+  511  echo 1 > one_document.txt
+  512  sudo echo 1 > one_document.txt
+  513  echo 1 < one_document.txt
+  514  nana one_document.txt
+  515  nano one_document.txt
+  516  tree
+  517  cd lab3
+  518  tree
+  519  cd .
+  520  cd ..
+  521  sudo rm lab3
+  522  sudo rm -r lab3
+  523  tree
+  524  mkdir Lab3
+  525  cd Lab3
+  526  mkdir CopyingFolder
+  527  tree
+  528  cd CopyingFolder
+  529  sudo touch copied.txt
+  530  tree
+  531  cd ../../
+  532  cd Lab3
+  533  tree
+  534  mkdir Documents
+  535  cd Documents
+  536  cd .
+  537  cd ..
+  538  sudo cp CopyingFolder/copied.txt ~/Documents
+  539  tree
+  540  sudo cp ~/CopyingFolder/copied.txt ~/Documents
+  541  sudo cp ~/Lab3/CopyingFolder/copied.txt ~/Documents/
+  542  sudo cp copied.txt /Documents
+  543  cd CopyingFolder
+  544  sudo cp copied.txt /Documents
+  545  ls
+  546  cd ../
+  547  ls
+  548  tree
+  549  cp copied.txt /Documents
+  550  cd CopyingFolder
+  551  cp copied.txt /Documents
+  552  cp copied.txt ~/Documents
+  553  cd ..
+  554  tree
+  555  cd CopyingFolder
+  556  sudo cp copied.txt ~/Lab3/Documents
+  557  cd ..
+  558  tree
+  559  cd Documents
+  560  sudo touch {one,two,three,four,five}.txt
+  561  ls
+  562  cd ..
+  563  Documents
+  564  cd Documents
+  565  sudo cp {one,two,three,four,five}.txt ~/Lab3/CopyingFolder
+  566  cd ..
+  567  tree
+  568  mkdir Desktop
+  569  tree
+  570  sudo cp -r ~/CopyingFolder ~/Desktop/
+  571  sudo cp -r ~/Lab3/CopyingFolder ~/Lab3/Desktop
+  572  tree
+  573  cd Documnets
+  574  cd Documents
+  575  sudo touch {one,two,three,four,five}_document.txt
+  576  ls
+  577  echo 1 > one_document.txt
+  578  sudo bash -c 'echo 1 > one_document.txt'
+  579  cat one_document.txt
+  580  sudo bash -c 'echo 2 > two_document.txt'
+  581  sudo bash -c 'echo 3 > three_document.txt'
+  582  sudo bash -c 'echo 4 > four_document.txt'
+  583  sudo bash -c 'echo 5 > five_document.txt'
+  584  ls
+  585  sudo mv {one,two,three,four,five}_document.txt document_{un,deux,trios,quatre,cinque}.txt
+  586  ls
+  587  sudo mv {one,two}_document.txt document_{un,deux}.txt
+  588  ls
+  589  tree
+  590  sudo mv one_document.txt document_u.txt
+  591  ls
+  592  sudo mv document_u.txt document_un.txt
+  593  ls
+  594  sudo mv two_document.txt document_deux.txt
+  595  ls
+  596  sudo mv three_document.txt document_trios.txt
+  597  sudo mv four_document.txt document_quatre.txt
+  598  sudo mv five_document.txt document_cingue.txt
+  599  tree
+  600  cd ..
+  601  mkdir MoveFolder
+  602  ls
+  603  sudo mv ~/Lab3/Documents/* ~/Lab3/MoveFolder
+  604  tree
+  605  cd Desktop
+  606  mkdir FrenchFolder
+  607  cd FrenchFolder
+  608  sudo mv ~/Lab3/MoveFolder/* ~/Lab3/Desktop/FrenchFolder
+  609  ls
+  610  cd ../../
+  611  tree
+  612  tree ~/Lab3 > ~/Lab3/tree_structure_before_remove.txt
+  613  tree
+  614  cat tree_structure_before_remove.txt
+  615  cd ..
+  616  sudo rm ~/Lab3/Desktop/FrenchFolder/document_deux.txt
+  617  cd ~/Lab3/Desktop
+  618  tree
+  619  cd ..
+  620  cd Documents
+  621  mkdir EmptyFolder
+  622  cd EmptyFolder
+  623  sudo touch deletedfile.txt
+  624  ls
+  625  cd ../
+  626  cd EmptyFolder
+  627  mkdir DeletedFolder
+  628  ls
+  629  sudo rm DeletedFolder
+  630  sudo rm -d DeltedFolder
+  631  sudo rm -d DeletedFolder
+  632  ls
+  633  cd ..
+  634  sudo rm -r EmptyFolder
+  635  ls
+  636  tree
+  637  cd ..
+  638  tree
+  639  cd Desktop
+  640  sudo rm ~/FrenchFolder/*.txt
+  641  rm ~/FrenchFolder/*.txt
+  642  cd FrenchFolder
+  643  sudo rm *.txt
+  644  ls
+  645  cd ../
+  646  tree
+  647  cat tree_structure_before_remove.txt
+  648  cd ../
+  649  cat tree_structure_before_remove.txt
+  650  cd ..
+  651  sudo rm -d Lab3
+  652  sudo rm -r Lab3
+  653  tree
+  654  mkdir Lab3
+  655  cd Lab3
+  656  mkdir CopyingFolder
+  657  cd CopyingFolder
+  658  sudo touch copied.txt
+  659  ls
+  660  cd ..
+  661  mkdir Documents
+  662  ls
+  663  sudo cp ~/Lab3/CopyingFolder/copied.txt ~/Lab3/Documents
+  664  ls
+  665  tree
+  666  cd Documents
+  667  sudo touch {one,two,three,four,five}.txt
+  668  ls
+  669  cd ..
+  670  sudo cp ~/Lab3/Documents/*.txt ~/Lab3/CopyingFolder
+  671  tree
+  672  mkdire Desktop
+  673  mkdir Desktop
+  674  sudo cp -r ~/Lab3/CopyingFolder ~/Lab3/Desktop
+  675  tree
+  676  cd Document
+  677  cd Documents
+  678  sudo touch {one,two,three,four,five}_document.txt
+  679  tree
+  680  sudo bash -c 'echo 1 > one_document.txt'
+  681  cat one_document.txt
+  682  sudo bash -c 'echo 2 > two_document.txt'
+  683  sudo bash -c 'echo 3 > three_document.txt'
+  684  sudo bash -c 'echo 4 > four_document.txt'
+  685  sudo bash -c 'echo 5 > five_document.txt'
+  686  sudo mv one_document.txt document_un.txt
+  687  ls
+  688  sudo mv two_document.txt document_deux.txt
+  689  sudo mv three_document.txt document_trios.txt
+  690  sudo mv four_document.txt document_quatre.txt
+  691  sudo mv five_document.txt document_cinque.txt
+  692  tree
+  693  cd ..
+  694  mkdir MoveFolder
+  695  tree
+  696  sudo mv ~/Lab3/Documents/* ~/Lab3/MoveFolder
+  697  tree
+  698  cd Desktop
+  699  mkdir FrenchFolder
+  700  sudo mv ~/Lab3/MoveFolder/* ~/Lab3/Desktop/FrenchFolder
+  701  cd ..
+  702  tree
+  703  cat tree_structure_before_remove.txt
+  704  cd ..
+  705  sudo rm ~/Lab3/Desktop/FrenchFolder/document_deux.txt
+  706  tree
+  707  cd Lab3
+  708  cd Documents
+  709  mkdir EmptyFolder
+  710  cd EmptyFolder
+  711  sudo touch deletefile.txt
+  712  mkdir DeleteFolder
+  713  sudo rm -d DeleteFolder
+  714  ls
+  715  cd ..
+  716  sudo rm -r EmptyFolder
+  717  ls
+  718  cd ..
+  719  cd Desktop
+  720  tree
+  721  sudo rm ~/Lab3/Desktop/FrenchFolder/*.txt
+  722  tree
+  723  cd ..
+  724  tree ~/Lab3 > ~/Lab3/tree_structure_after_remove.txt
+  725  tree
+  726  history > ~/lab3/wildcardex1_command_history.txt
+  727  history > ~/Lab3/wildcardex1_command_history.txt
+  728  tree
+  729  mkdir Wildcard_lab
+  730  cd Wildcard_lab
+  731  sudo touch {a,b,ab,abc}.txt
+  732  ls
+  733  sudo touch xyz.log
+  734  sudo touch data.csv
+  735  ls *.txt
+  736  ls *.log
+  737  ls ?*.txt
+  738  ls ?.txt
+  739  cd ..
+  740  mkdir backup
+  741  sudo cp ~/Lab3/*.txt ~/Lab3/backup
+  742  tree
+  743  sudo cp ~/*.txt ~/backup
+  744  sudo cp ~/Lab3/CopyingFolder/*.txt
+  745  tree
+  746  sudo cp ~/Lab3/CopyingFolder/*.txt ~/Lab3/backup
+  747  tree
+  748  sudo cp ~/Lab3/Desktop/*.txt ~/Lab3/backup
+  749  sudo cp ~/Lab3/Wildcard_lab/*.txt ~/Lab3/backup
+  750  tree
+  751  cd Wildcard_lab
+  752  sudo rm ?.txt
+  753  ls
+  754  cd ..
+  755  sudo rm ~/Lab3/backup/*
+  756  tree
+  757  cd Wildcard_lab
+  758  sudo touch file{1,2,3}.txt
+  759  ls
+  760  sudo touch {1,2,3}file.txt
+  761  ls
+  762  ls file[123].txt
+  763  ls [123]file.txt
+  764  ls file[1-3].txt
+  765  ls [1-2]file.txt
+  766  cd ..

@@ -1,0 +1,59 @@
+    1  apt list --upgradable
+    2  clear
+    3  /home c
+    4  /home cd
+    5  /home# cd
+    6  echo ~
+    7  ls
+    8  sudo apt install tree
+    9  exit
+   10  mkdir lab2
+   11  cd lab2
+   12  tree
+   13  mkdir /ex1
+   14  mkdir ex1
+   15  tree
+   16  mkdir ex2
+   17  tree
+   18  cd ex1
+   19  mkdir etc
+   20  touch ex1_command_history.txt
+   21  tree
+   22  mkdir home
+   23  touch result.txt
+   24  cd ..
+   25  cd ex2
+   26  touch ex2_command_history.txt
+   27  cd ..
+   28  cd ex1
+   29  cd etc
+   30  mkdir network
+   31  mkdir systemd
+   32  mkdir udev
+   33  cd network
+   34  mkdir interfaces
+   35  cd etc
+   36  cd ..
+   37  cd systemd
+   38  touch resolve.conf
+   39  mkdir system
+   40  touch system.conf
+   41  mkdir user
+   42  touch user.conf
+   43  cd ..
+   44  cd udev
+   45  mkdir rules.d
+   46  touch udev.conf
+   47  cd ..
+   48  tree
+   49  cd ex1
+   50  cd home
+   51  mkdir lost+found
+   52  mkdir user
+   53  cd user
+   54  mkdir Documents
+   55  cd ..
+   56  tree
+   57  cd ..
+   58  history
+   59  history >lab2/ex1/ex1_command_history.txt
