@@ -1,0 +1,50 @@
+  312  git add .
+  313  git commit "commit"
+  314  git commit -m "commit"
+  315  git config --global kanharoth12345@gmail.com
+  316  git config --global user.email "kanharoth12345@gmail.com"
+  317  git config --global user.name "ROXYTINA"
+  318  git commit -m "commit"
+  319  git push origin
+  320  git push origin master
+  321  git push -u origin branch-1
+  322  git push origin master
+  323  git push https://github.com/ROXYTINA/OS-LAB.git/
+  324  git push origin master
+  325  git remote set-url origin https://11BKSYZXI0ZxEuruFySYpp_Br7Et7xNH2LHqux1BlrsOYTY2TkOrPwCBoErCJw8kiOZGTGTMJN1am502g3@github.com/ROXYTINA/OS-LAB.git
+  326  git push origin main
+  327  git push origin master
+  328  git remote add origin https://github.com/ROXYTINA/OS-LAB.git
+  329  git push origin master
+  330  git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+  331  git push origin main
+  332  git credential-cache exit
+  333  git push origin main
+  334  git remote origin https://github.com/ROXYTINA/OS-LAB.git
+  335  git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+  336  git push origin main
+  337  git push origin master
+  338  git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+  339  git push -u origin main
+  340  git credential-cache exit
+  341  git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+  342  git push -u origin main
+  343  git push origin master
+  344  close
+  345  exit
+  346  git init
+  347  ls
+  348  mkdir lab4
+  349  cd lab4
+  350  ls -l ~ >~/lab4/content.txt
+  351  sort content.txt >> content-sorted.txt
+  352  ls
+  353  tail /etc/passwd > ~/lab4/Document/newfile.txt
+  354  mkdir Document
+  355  tail /etc/passwd > ~/lab4/Document/newfile.txt
+  356  wc -w < content.txt >> ~/lab4/filed2.txt
+  357  head -n 5 /etc/passwd | sort -r
+  358  tail -n 9 content.txt | wc -m
+  359  find /usr/share -kanha test
+  360  find /usr/share -name test
+  361  history | tail -n 50 > ~/lab4/command_history.txt
