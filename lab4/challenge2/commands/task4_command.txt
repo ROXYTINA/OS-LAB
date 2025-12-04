@@ -1,0 +1,25 @@
+ 1602  cat results/task1_IT_staff.txt
+ 1603  history | tail -n 20 > commands/task1_command.txt
+ 1604  cat commands/task1_command.txt
+ 1605  history | tail -n 30 > commands/task1_command.txt
+ 1606  cat commands/task1_command.txt
+ 1607  echo "------------Extract Email Address Only-----------" > results/task2_all_emails.txt
+ 1608  cut -d',' -f4 data/employees.txt | cut -d':' -f2 >> results/task2_all_emails.txt
+ 1609  cat  results/task2_all_emails.txt
+ 1610  tree
+ 1611  cut -d',' -f4 data/employee.txt | cut -d':' -f2 >> results/task2_all_emails.txt
+ 1612  cat  results/task2_all_emails.txt
+ 1613  history | tail -n 30 > commands/task2_command.txt
+ 1614  cat commands/task2_command.txt
+ 1615  echo "-------------Find Emails start with j----------" > results/task3_j_emails.txt
+ 1616* cut -d',' -f4 data/employee.txt | cut -d':' -f2 | grep "^j" >> results/Task4_HR_names.txt
+ 1617  cat results/task3_j_emails.tx
+ 1618  tree
+ 1619  cat results/task3_j_emails.txt
+ 1620  echo "-------------HR names----------" > results/task4_HR_names.txt
+ 1621  cat results/task4_HR_names.txt
+ 1622  grep "department:HR" data/employees.txt | cut -d',' -f2 | cut -d':' -f2 >> results/task4_HR_names.txt
+ 1623  grep "department:HR" data/employee.txt | cut -d',' -f2 | cut -d':' -f2 >> results/task4_HR_names.txt
+ 1624  cat results/task4_HR_names.txt
+ 1625  history | tail -n 50 > commands/task3_command.txt
+ 1626  history | tail -n 25 > commands/task4_command.txt

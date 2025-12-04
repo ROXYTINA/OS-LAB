@@ -1,0 +1,50 @@
+ 1425  cd analysis
+ 1426  cat task1_basic_stats.txt
+ 1427  tree
+ 1428  rm task1_basic_stats.txt
+ 1429  rm taak1_basic_stats.txt
+ 1430  rm taks1_basic_stats.txt
+ 1431  cd ../../
+ 1432  cd ../
+ 1433  clear
+ 1434  close
+ 1435  exit
+ 1436  tree
+ 1437  cd lab4
+ 1438  tree
+ 1439  cd challeges1
+ 1440  cd challenge1
+ 1441  ls original_log/
+ 1442  rm access.log:Zone.Identifier
+ 1443  ls original_log/ | wc -l > analysis/task1_basic_stat.txt
+ 1444  tree
+ 1445  cat task1_basic_stat.txt
+ 1446  cd analysis
+ 1447  cat task1_basic_stat.txt
+ 1448  cd ..
+ 1449  wc -l original_log/access.log >> task1_basic_stat.txt
+ 1450  cat task1_basic_stat.txt
+ 1451  tree
+ 1452  rm task1_basic_stat.txt
+ 1453  wc -l original_log/access.log >> analysis/task1_basic_stat.txt
+ 1454  cat task1_basic_stat.txt
+ 1455  cat analysis/task1_basic_stat.txt
+ 1456  echo "-First 5 line" >> analysis/task1_basic_stat.txt
+ 1457  head -n 5 /original/access.log >> analysis/task1_basic_stat.txt
+ 1458  head -n 5 original/access.log >> analysis/task1_basic_stat.txt
+ 1459  head -n 5 original_log/access.log >> analysis/task1_basic_stat.txt
+ 1460  cat analysis/task1_basic_stat.txt
+ 1461  echo "-Last 5 line" >> analysis/task1_basic_stat.txt
+ 1462  tail -n 5 original_log/access.log >> analysis/task1_basic_stat.txt
+ 1463  cat analysis/task1_basic_stat.txt
+ 1464  tree
+ 1465  history > commands_used
+ 1466  history > ~/commands_used/task1_commands.txt
+ 1467  cd command_used
+ 1468  cd commands_used
+ 1469  touch task1_command.txt
+ 1470  history > task1_command.txt
+ 1471  cat task1_command.txt
+ 1472  rm task1_command.txt
+ 1473  touch task1_command.txt
+ 1474  history | tail -n 50 > task1_command.txt

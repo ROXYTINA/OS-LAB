@@ -1,0 +1,30 @@
+ 1584  cat results/task1_IT_staff.txt
+ 1585  grep "department:IT" data/employees.txt >> results/task1_IT_staff.txt
+ 1586  grep "department:IT" data/employees.sql >> results/task1_IT_staff.txt
+ 1587  cat results/task1_IT_staff.txt
+ 1588  tree
+ 1589  grep "department:IT" data/employees.sql >> results/task1_IT_staff.txt
+ 1590  cat results/task1_IT_staff.txt
+ 1591  cd data
+ 1592  rm employees.sql
+ 1593  tree
+ 1594  cd ..
+ 1595  ls
+ 1596  tree
+ 1597  rm data/employee.txt:Zone.Identifier
+ 1598  cat results/task1_IT_staff.txt
+ 1599  grep "department:IT" data/employees.sql >> results/task1_IT_staff.txt
+ 1600  grep "department:IT" data/employees.txt >> results/task1_IT_staff.txt
+ 1601  grep "department:IT" data/employee.txt >> results/task1_IT_staff.txt
+ 1602  cat results/task1_IT_staff.txt
+ 1603  history | tail -n 20 > commands/task1_command.txt
+ 1604  cat commands/task1_command.txt
+ 1605  history | tail -n 30 > commands/task1_command.txt
+ 1606  cat commands/task1_command.txt
+ 1607  echo "------------Extract Email Address Only-----------" > results/task2_all_emails.txt
+ 1608  cut -d',' -f4 data/employees.txt | cut -d':' -f2 >> results/task2_all_emails.txt
+ 1609  cat  results/task2_all_emails.txt
+ 1610  tree
+ 1611  cut -d',' -f4 data/employee.txt | cut -d':' -f2 >> results/task2_all_emails.txt
+ 1612  cat  results/task2_all_emails.txt
+ 1613  history | tail -n 30 > commands/task2_command.txt

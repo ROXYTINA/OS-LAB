@@ -1,0 +1,50 @@
+ 1460  cat analysis/task1_basic_stat.txt
+ 1461  echo "-Last 5 line" >> analysis/task1_basic_stat.txt
+ 1462  tail -n 5 original_log/access.log >> analysis/task1_basic_stat.txt
+ 1463  cat analysis/task1_basic_stat.txt
+ 1464  tree
+ 1465  history > commands_used
+ 1466  history > ~/commands_used/task1_commands.txt
+ 1467  cd command_used
+ 1468  cd commands_used
+ 1469  touch task1_command.txt
+ 1470  history > task1_command.txt
+ 1471  cat task1_command.txt
+ 1472  rm task1_command.txt
+ 1473  touch task1_command.txt
+ 1474  history | tail -n 50 > task1_command.txt
+ 1475  cat task1_command.txt
+ 1476  cd ..
+ 1477  tree
+ 1478  cd analysis
+ 1479  touch task2_basic_stat.txt
+ 1480  cd ..
+ 1481  cd commands_used
+ 1482  touch task2_command.txt
+ 1483  cd ..
+ 1484  grep "40[13]" original_log/access.log > analysis/task2_failed_logins.txt
+ 1485  cat analysis/task2_failed_logins.txt
+ 1486  echo "-------IPs with failed logins---------" >> analysis/task2_failed_log.txt
+ 1487  grep "40[13]" original/access.log | awk '{print $1}' >> analysis/task2_failed_log.txt
+ 1488  grep "40[13]" original_log/access.log | awk '{print $1}' >> analysis/task2_failed_log.txt
+ 1489  cat analysis/task2_faile
+ 1490  d_log.txt
+ 1491  cat analysis/task2_failed_logins.txt
+ 1492  tree
+ 1493  rm task2_basic_stat.txt
+ 1494  rm analysis/task2_basic_stat.txt
+ 1495  rm analysis/task2_failed_log.txt
+ 1496  rm analysis/task2_failed_login.txt
+ 1497  rm analysis/task2_failed_logins.txt
+ 1498  tree
+ 1499  cd analysis
+ 1500  touch task2_failed_logins.txt
+ 1501  cd ..
+ 1502  grep "40[13]" original_log/access.log > analysis/task2_failed_logins.txt
+ 1503  cat analysis/task2_failed_logins.txt
+ 1504  echo "-------IPs with failed logins---------" >> analysis/task2_failed_logins.txt
+ 1505  grep "40[13]" original_log/access.log | awk '{print $1}' >> analysis/task2_failed_logins.txt
+ 1506  cat analysis/task2_failed_logins.txt
+ 1507  echo "--------Attempts per IP---------" >> analysis/task2_failed_logins.txt
+ 1508  grep "40[13]" original_log/access.log | awk '{print $1}' | sort | uniq -c | sort -nr >> analysis/task2_failed_logins.txt
+ 1509  cat analysis/task2_failed_logins.txt

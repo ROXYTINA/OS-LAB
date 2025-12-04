@@ -1,0 +1,50 @@
+ 1498  tree
+ 1499  cd analysis
+ 1500  touch task2_failed_logins.txt
+ 1501  cd ..
+ 1502  grep "40[13]" original_log/access.log > analysis/task2_failed_logins.txt
+ 1503  cat analysis/task2_failed_logins.txt
+ 1504  echo "-------IPs with failed logins---------" >> analysis/task2_failed_logins.txt
+ 1505  grep "40[13]" original_log/access.log | awk '{print $1}' >> analysis/task2_failed_logins.txt
+ 1506  cat analysis/task2_failed_logins.txt
+ 1507  echo "--------Attempts per IP---------" >> analysis/task2_failed_logins.txt
+ 1508  grep "40[13]" original_log/access.log | awk '{print $1}' | sort | uniq -c | sort -nr >> analysis/task2_failed_logins.txt
+ 1509  cat analysis/task2_failed_logins.txt
+ 1510  tree
+ 1511  cd analysis
+ 1512  touch task3_suspicious_agent.txt
+ 1513  touch task4_top_ips.txt
+ 1514  cd ..
+ 1515  cd commands_used
+ 1516  ls
+ 1517  touch task3_command.txt
+ 1518  touch task4_command.txt
+ 1519  cd ..
+ 1520  tree
+ 1521  echo "---------Suspicious User Agent-----------" > analysis/task3_suspicious_agant.txt
+ 1522  grep -i "bot\|scan\|exploit\|curl\|wget" original_log/access.log >> analysis/task3_suspicious_agent.txt
+ 1523  cat analysis/task3_suspicious_agant.txt
+ 1524  tree
+ 1525  cat analysis/task3_suspicious_agant.txt
+ 1526  cat analysis/task3_suspicious_agent.txt
+ 1527  rm analysis/task3_suspicious_agent.txt
+ 1528  cat analysis/task3_suspicious_agant.txt
+ 1529  tree
+ 1530  grep -i "bot\|scan\|exploit\|curl\|wget" original_log/access.log >> analysis/task3_suspicious_agant.txt
+ 1531  cat analysis/task3_suspicious_agant.txt
+ 1532  echo "---------Suspicious Paths-----------" > analysis/task3_suspicious_agant.txt
+ 1533  cat analysis/task3_suspicious_agant.txt
+ 1534  echo "---------Suspicious User Agent-----------" > analysis/task3_suspicious_agant.txt
+ 1535  grep -i "bot\|scan\|exploit\|curl\|wget" original_log/access.log >> analysis/task3_suspicious_agant.txt
+ 1536  cat analysis/task3_suspicious_agant.txt
+ 1537  echo "---------Suspicious Paths-----------" >> analysis/task3_suspicious_agant.txt
+ 1538  cat analysis/task3_suspicious_agant.txt
+ 1539  grep -i "/admin\|/wp-admin\|/\\.git\|cmd=" original_log/access.log >> analysis/task3_suspicious_agant.txt
+ 1540  cat analysis/task3_suspicious_agant.txt
+ 1541  echo "---------Check Odd query-----------" >> analysis/task3_suspicious_agant.txt
+ 1542  cat analysis/task3_suspicious_agant.txt
+ 1543  grep " 404 " original_log/access.log >> analysis/task3_suspicious_agant.txt
+ 1544  cat analysis/task3_suspicious_agant.txt
+ 1545  history | tail -n 50 > command_used/task3_command.txt
+ 1546  tree
+ 1547  history | tail -n 50 > commands_used/task3_command.txt

@@ -1,0 +1,20 @@
+ 1549  _command.txt
+ 1550  cat  commands_used/task3
+ 1551  _command.txt
+ 1552  cat commands_used/task3_command.txt
+ 1553  echo "---------TOP 5 most active IPs-----------" > analysis/task4_top_ips.txt
+ 1554  cat  analysis/task4_top_ips.txt
+ 1555  awk '{print $1}' original_log/access.log | sort | uniq -c | sort -nr | head -5 >> analysis/task4_top_ips.txt
+ 1556  cat  analysis/task4_top_ips.txt
+ 1557  echo "---------Request frequency by hour-----------" >> analysis/task4_top_ips.txt
+ 1558  cat  analysis/task4_top_ips.txt
+ 1559  cut -d: -f2 original_log/access.log | sort | uniq -c | sort -nr >> analysis/task4_top_ips.txt
+ 1560  cat  analysis/task4_top_ips.txt
+ 1561  echo "---------Most targeted URLs-----------" >> analysis/task4_top_ips.txt
+ 1562  cat  analysis/task4_top_ips.txt
+ 1563  awk '{print $7}' original_log/access.log | sort | uniq -c | sort -nr | head -10 >> analysis/task4_top_ips.txt
+ 1564  cat  analysis/task4_top_ips.txt
+ 1565  tree
+ 1566  cd commands_used
+ 1567  cat task3_command.txt
+ 1568  history | tail -n 20 > task4_command.txt
