@@ -269,3 +269,189 @@ mv three_document.txt documen_trios.txt
 mv four_document.txt document_quatre
 tree
 mv document_quatre document_quatre.txt
+ls
+cd gic-sreng-sopheakanha
+ls
+cd ..
+rm lab3
+rm -d lab3
+rm -r lab3
+ls
+mv gic-sreng-sopheakanha Lab3
+ls
+cd lab3
+cd Lab3
+ls
+mv /Lab3/class-activity1 ~/
+cd ..
+mv /Lab3/class-activity1 ~/
+cd Lab3
+ls
+cd ..
+mv ~/Lab3/class-activity1 ~/
+ls
+mv ~/Lab3/class-activity2 ~/
+ls
+cd class-activity1
+ls
+cd ..
+cd Lab3
+tree
+cd .
+cd ..
+tree > ~/Lab3/tree_structure_before_remove.txt
+cat /Lab3/tree_structure_before_remove.txt
+cd Lab3
+ls
+cat tree_structure_before_remove.txt
+cd ..
+git init
+git remote
+git remote add origin https://github.com/ROXYTINA/OS-LAB.git
+git add ~/
+git add .
+git commit "commit"
+git commit -m "commit"
+git config --global kanharoth12345@gmail.com
+git config --global user.email "kanharoth12345@gmail.com"
+git config --global user.name "ROXYTINA"
+git commit -m "commit"
+git push origin
+git push origin master
+git push -u origin branch-1
+git push origin master
+git push https://github.com/ROXYTINA/OS-LAB.git/
+git push origin master
+git remote set-url origin https://11BKSYZXI0ZxEuruFySYpp_Br7Et7xNH2LHqux1BlrsOYTY2TkOrPwCBoErCJw8kiOZGTGTMJN1am502g3@github.com/ROXYTINA/OS-LAB.git
+git push origin main
+git push origin master
+git remote add origin https://github.com/ROXYTINA/OS-LAB.git
+git push origin master
+git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+git push origin main
+git credential-cache exit
+git push origin main
+git remote origin https://github.com/ROXYTINA/OS-LAB.git
+git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+git push origin main
+git push origin master
+git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+git push -u origin main
+git credential-cache exit
+git remote set-url origin https://github.com/ROXYTINA/OS-LAB.git
+git push -u origin main
+git push origin master
+close
+exit
+git init
+ls
+mkdir lab4
+cd lab4
+ls -l ~ >~/lab4/content.txt
+sort content.txt >> content-sorted.txt
+ls
+tail /etc/passwd > ~/lab4/Document/newfile.txt
+mkdir Document
+tail /etc/passwd > ~/lab4/Document/newfile.txt
+wc -w < content.txt >> ~/lab4/filed2.txt
+head -n 5 /etc/passwd | sort -r
+tail -n 9 content.txt | wc -m
+find /usr/share -kanha test
+find /usr/share -name test
+history | tail -n 50 > ~/lab4/command_history.txt
+tree
+cd ..
+git init
+git branch
+git branch -M main
+tree
+git add class-activity1 class-activity2 class-activity3 lab1 lab2 lab3 lab4
+ls
+git add class-activity1 class-activity2 class-activity3 lab1 lab2 lab3 lab4
+git add class-activity1 class-activity2 class-activity3 lab1 lab2 Lab3 lab4
+git status
+git commit -m "commit"
+git remote add origin https://github.com/ROXYTINA/OS-LAB.git
+git push -u origin main
+ls
+tree
+close
+quit
+exit
+tree
+rm Documents
+tree
+git init
+git add Document Desktop
+nano .gitignore
+git push origin -m
+git push origin main
+close
+exit
+tree
+ls
+cd lab4
+git init
+git add .
+git add lab4
+cd ..
+git add lab4
+git commit -m "lab4"
+git push
+exit;
+exit
+pwd
+ls
+mkdir script-lab
+cd script-lab/
+touch helloworld
+echo $PATH
+export PATH=~/script-lab/:"$PATH"
+cat helloworld
+nano helloworld
+chmod +x helloworld
+./helloworld
+export PATH=~/script-lab/:"$PATH"
+echo 'export PATH=~/script-lab/:"$PATH"' >> ~/.bashrc
+helloworld
+touch welcome
+nano welcome
+chmod +x welcome
+./welcome
+nano welcome
+./welcome
+nano welcome
+./welcome
+nano welcome
+./welcome
+export PATH=~/script-lab:"$PATH"
+welcome
+nano ~/.bashrc
+source ~/.bashrc
+exit
+nano ~/.bashrc
+exit
+clear
+exit
+nano ~/.bashrc
+source ~/.bashrc
+cd script-lab/
+nano welcome
+nano hello world
+rm hello world
+tree
+nano helloworld
+helloworld
+nano helloworld
+helloworld
+nano helloworld
+helloworld
+nano welcome
+exit
+nano welcome
+cd script-lab/
+nano welcome
+exit
+nano ~/.bashrc
+source ~/.bashrc
+exit
