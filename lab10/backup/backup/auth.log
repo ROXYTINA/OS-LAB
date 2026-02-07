@@ -1,0 +1,63 @@
+2026-02-07T15:12:29.527384+07:00 DESKTOP-MM8KAUH login[510]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-02-07T15:12:29.527475+07:00 DESKTOP-MM8KAUH login[510]: PAM adding faulty module: pam_lastlog.so
+2026-02-07T15:12:29.795265+07:00 DESKTOP-MM8KAUH login[510]: pam_unix(login:session): session opened for user kanha(uid=1000) by kanha(uid=0)
+2026-02-07T15:12:29.855028+07:00 DESKTOP-MM8KAUH systemd-logind[187]: New session 1 of user kanha.
+2026-02-07T15:12:29.866941+07:00 DESKTOP-MM8KAUH (systemd): pam_unix(systemd-user:session): session opened for user kanha(uid=1000) by kanha(uid=0)
+2026-02-07T15:14:23.522772+07:00 DESKTOP-MM8KAUH sudo:    kanha : TTY=pts/0 ; PWD=/home/kanha/Class-Activities ; USER=root ; COMMAND=/usr/bin/mv class-activity4 /home/kanha/Class-Activities/
+2026-02-07T15:14:23.523366+07:00 DESKTOP-MM8KAUH sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-02-07T15:14:23.526746+07:00 DESKTOP-MM8KAUH sudo: pam_unix(sudo:session): session closed for user root
+2026-02-07T15:15:01.278247+07:00 DESKTOP-MM8KAUH CRON[966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T15:15:01.281689+07:00 DESKTOP-MM8KAUH CRON[966]: pam_unix(cron:session): session closed for user root
+2026-02-07T15:17:01.410750+07:00 DESKTOP-MM8KAUH CRON[998]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T15:17:01.413920+07:00 DESKTOP-MM8KAUH CRON[998]: pam_unix(cron:session): session closed for user root
+2026-02-07T15:25:01.851233+07:00 DESKTOP-MM8KAUH CRON[1070]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T15:25:01.856465+07:00 DESKTOP-MM8KAUH CRON[1070]: pam_unix(cron:session): session closed for user root
+2026-02-07T15:26:30.780894+07:00 DESKTOP-MM8KAUH polkitd[1272]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-07T15:26:30.781252+07:00 DESKTOP-MM8KAUH polkitd[1272]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-07T15:26:30.783793+07:00 DESKTOP-MM8KAUH polkitd[1272]: Finished loading, compiling and executing 4 rules
+2026-02-07T15:26:30.784433+07:00 DESKTOP-MM8KAUH polkitd[1272]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-07T15:35:01.560881+07:00 DESKTOP-MM8KAUH CRON[1352]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T15:35:01.565184+07:00 DESKTOP-MM8KAUH CRON[1352]: pam_unix(cron:session): session closed for user root
+2026-02-07T15:39:01.934930+07:00 DESKTOP-MM8KAUH CRON[2018]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T15:39:01.937433+07:00 DESKTOP-MM8KAUH CRON[2018]: pam_unix(cron:session): session closed for user root
+2026-02-07T15:45:01.294144+07:00 DESKTOP-MM8KAUH CRON[2054]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T15:45:01.298717+07:00 DESKTOP-MM8KAUH CRON[2054]: pam_unix(cron:session): session closed for user root
+2026-02-07T15:55:01.364564+07:00 DESKTOP-MM8KAUH CRON[2079]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T15:55:01.367758+07:00 DESKTOP-MM8KAUH CRON[2079]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:05:01.730921+07:00 DESKTOP-MM8KAUH CRON[2114]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:05:01.734533+07:00 DESKTOP-MM8KAUH CRON[2114]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:09:01.593956+07:00 DESKTOP-MM8KAUH CRON[2122]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:09:01.595691+07:00 DESKTOP-MM8KAUH CRON[2122]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:15:01.153566+07:00 DESKTOP-MM8KAUH CRON[2185]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:15:01.156122+07:00 DESKTOP-MM8KAUH CRON[2185]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:17:05.671303+07:00 DESKTOP-MM8KAUH CRON[2191]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:17:05.676684+07:00 DESKTOP-MM8KAUH CRON[2191]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:25:01.999704+07:00 DESKTOP-MM8KAUH CRON[2215]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:25:02.003553+07:00 DESKTOP-MM8KAUH CRON[2215]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:35:01.998630+07:00 DESKTOP-MM8KAUH CRON[2230]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:35:02.001229+07:00 DESKTOP-MM8KAUH CRON[2230]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:39:01.483278+07:00 DESKTOP-MM8KAUH CRON[2295]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:39:01.487782+07:00 DESKTOP-MM8KAUH CRON[2295]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:45:01.490179+07:00 DESKTOP-MM8KAUH CRON[2424]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:45:01.495243+07:00 DESKTOP-MM8KAUH CRON[2424]: pam_unix(cron:session): session closed for user root
+2026-02-07T16:52:23.394596+07:00 DESKTOP-MM8KAUH systemd-logind[187]: New seat seat0.
+2026-02-07T16:52:29.276429+07:00 DESKTOP-MM8KAUH login[502]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-02-07T16:52:29.276742+07:00 DESKTOP-MM8KAUH login[502]: PAM adding faulty module: pam_lastlog.so
+2026-02-07T16:52:29.888958+07:00 DESKTOP-MM8KAUH login[502]: pam_unix(login:session): session opened for user kanha(uid=1000) by kanha(uid=0)
+2026-02-07T16:52:29.967676+07:00 DESKTOP-MM8KAUH systemd-logind[187]: New session 18 of user kanha.
+2026-02-07T16:52:30.045316+07:00 DESKTOP-MM8KAUH (systemd): pam_unix(systemd-user:session): session opened for user kanha(uid=1000) by kanha(uid=0)
+2026-02-07T16:55:01.156095+07:00 DESKTOP-MM8KAUH CRON[880]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T16:55:01.165630+07:00 DESKTOP-MM8KAUH CRON[880]: pam_unix(cron:session): session closed for user root
+2026-02-07T17:05:01.736421+07:00 DESKTOP-MM8KAUH CRON[966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T17:05:01.740940+07:00 DESKTOP-MM8KAUH CRON[966]: pam_unix(cron:session): session closed for user root
+2026-02-07T17:13:14.929711+07:00 DESKTOP-MM8KAUH CRON[1034]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T17:13:14.933808+07:00 DESKTOP-MM8KAUH CRON[1034]: pam_unix(cron:session): session closed for user root
+2026-02-07T17:15:01.941223+07:00 DESKTOP-MM8KAUH CRON[1073]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T17:15:01.945453+07:00 DESKTOP-MM8KAUH CRON[1073]: pam_unix(cron:session): session closed for user root
+2026-02-07T17:17:01.954350+07:00 DESKTOP-MM8KAUH CRON[1105]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T17:17:01.962695+07:00 DESKTOP-MM8KAUH CRON[1105]: pam_unix(cron:session): session closed for user root
+2026-02-07T17:25:01.974543+07:00 DESKTOP-MM8KAUH CRON[1193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T17:25:01.983276+07:00 DESKTOP-MM8KAUH CRON[1193]: pam_unix(cron:session): session closed for user root
+2026-02-07T17:35:01.139793+07:00 DESKTOP-MM8KAUH CRON[1367]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-07T17:35:01.145736+07:00 DESKTOP-MM8KAUH CRON[1367]: pam_unix(cron:session): session closed for user root
+2026-02-07T17:36:37.364687+07:00 DESKTOP-MM8KAUH sudo:    kanha : TTY=pts/0 ; PWD=/home/kanha/script/lab10 ; USER=root ; COMMAND=/usr/bin/tar -cvf /home/kanha/archive/log.tar -C /var/log alternatives.log auth.log bootstrap.log cron.log dpkg.log kern.log mail.log

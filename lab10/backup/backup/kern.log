@@ -1,0 +1,50 @@
+2026-02-07T15:12:26.653073+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+2026-02-07T15:12:26.657213+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T15:12:26.657239+07:00 DESKTOP-MM8KAUH kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T15:12:26.657240+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T15:12:26.657243+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T15:12:26.661082+07:00 DESKTOP-MM8KAUH kernel: message repeated 4 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T15:12:26.661082+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T15:12:26.665063+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T15:12:26.665094+07:00 DESKTOP-MM8KAUH kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T15:12:26.665095+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T15:12:26.705110+07:00 DESKTOP-MM8KAUH kernel: TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+2026-02-07T15:12:27.797062+07:00 DESKTOP-MM8KAUH kernel: pulseaudio[771]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+2026-02-07T15:13:09.516919+07:00 DESKTOP-MM8KAUH kernel: hv_balloon: Max. dynamic memory size: 16018 MB
+2026-02-07T15:21:46.828518+07:00 DESKTOP-MM8KAUH kernel: mini_init (255): drop_caches: 1
+2026-02-07T15:27:20.793523+07:00 DESKTOP-MM8KAUH kernel: mini_init (255): drop_caches: 1
+2026-02-07T15:38:54.868286+07:00 DESKTOP-MM8KAUH kernel: mini_init (255): drop_caches: 1
+2026-02-07T16:37:37.296765+07:00 DESKTOP-MM8KAUH kernel: hrtimer: interrupt took 23726287 ns
+2026-02-07T16:50:47.035903+07:00 DESKTOP-MM8KAUH kernel: scsi 0:0:0:4: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+2026-02-07T16:50:47.052071+07:00 DESKTOP-MM8KAUH kernel: sd 0:0:0:4: Attached scsi generic sg4 type 0
+2026-02-07T16:50:47.052131+07:00 DESKTOP-MM8KAUH kernel: sd 0:0:0:4: [sde] 294608 512-byte logical blocks: (151 MB/144 MiB)
+2026-02-07T16:50:47.052136+07:00 DESKTOP-MM8KAUH kernel: sd 0:0:0:4: [sde] Write Protect is off
+2026-02-07T16:50:47.052242+07:00 DESKTOP-MM8KAUH kernel: sd 0:0:0:4: [sde] Mode Sense: 0f 00 00 00
+2026-02-07T16:50:47.052246+07:00 DESKTOP-MM8KAUH kernel: sd 0:0:0:4: [sde] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2026-02-07T16:50:47.064147+07:00 DESKTOP-MM8KAUH kernel: sd 0:0:0:4: [sde] Attached SCSI disk
+2026-02-07T16:50:47.099864+07:00 DESKTOP-MM8KAUH kernel: EXT4-fs (sde): recovery complete
+2026-02-07T16:50:47.104039+07:00 DESKTOP-MM8KAUH kernel: EXT4-fs (sde): mounted filesystem 5b228c48-7df8-4753-942f-6bfcfb308ca9 r/w with ordered data mode. Quota mode: none.
+2026-02-07T16:50:48.028097+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+2026-02-07T16:50:48.032189+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T16:50:48.036026+07:00 DESKTOP-MM8KAUH kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T16:50:48.036039+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T16:50:48.040008+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T16:50:48.044060+07:00 DESKTOP-MM8KAUH kernel: message repeated 4 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T16:50:48.044061+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T16:50:48.048280+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T16:50:48.052195+07:00 DESKTOP-MM8KAUH kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T16:50:48.052206+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T16:51:01.540695+07:00 DESKTOP-MM8KAUH kernel: EXT4-fs (sde): unmounting filesystem 5b228c48-7df8-4753-942f-6bfcfb308ca9.
+2026-02-07T16:52:23.392614+07:00 DESKTOP-MM8KAUH kernel: EXT4-fs (sdd): unmounting filesystem 1647c496-eec0-4dc4-a6b7-368c676d463e.
+2026-02-07T16:52:23.392627+07:00 DESKTOP-MM8KAUH kernel: EXT4-fs (sdd): mounted filesystem 1647c496-eec0-4dc4-a6b7-368c676d463e r/w with ordered data mode. Quota mode: none.
+2026-02-07T16:52:21.150031+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+2026-02-07T16:52:21.154574+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T16:52:21.158732+07:00 DESKTOP-MM8KAUH kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T16:52:21.158743+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T16:52:21.158814+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T16:52:21.166140+07:00 DESKTOP-MM8KAUH kernel: message repeated 4 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T16:52:21.166149+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T16:52:21.174217+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2026-02-07T16:52:21.174308+07:00 DESKTOP-MM8KAUH kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2026-02-07T16:52:21.174310+07:00 DESKTOP-MM8KAUH kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2026-02-07T16:52:54.878018+07:00 DESKTOP-MM8KAUH kernel: mini_init (255): drop_caches: 1

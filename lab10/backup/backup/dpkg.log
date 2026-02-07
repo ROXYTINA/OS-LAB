@@ -1,0 +1,30 @@
+2026-02-07 15:26:26 startup archives unpack
+2026-02-07 15:26:27 upgrade libssl3t64:amd64 3.0.13-0ubuntu3.6 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 status triggers-pending libc-bin:amd64 2.39-0ubuntu8.6
+2026-02-07 15:26:27 status half-configured libssl3t64:amd64 3.0.13-0ubuntu3.6
+2026-02-07 15:26:27 status unpacked libssl3t64:amd64 3.0.13-0ubuntu3.6
+2026-02-07 15:26:27 status half-installed libssl3t64:amd64 3.0.13-0ubuntu3.6
+2026-02-07 15:26:27 status unpacked libssl3t64:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 startup packages configure
+2026-02-07 15:26:27 configure libssl3t64:amd64 3.0.13-0ubuntu3.7 <none>
+2026-02-07 15:26:27 status unpacked libssl3t64:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 status half-configured libssl3t64:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 status installed libssl3t64:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 startup archives unpack
+2026-02-07 15:26:27 upgrade openssl:amd64 3.0.13-0ubuntu3.6 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 status half-configured openssl:amd64 3.0.13-0ubuntu3.6
+2026-02-07 15:26:27 status unpacked openssl:amd64 3.0.13-0ubuntu3.6
+2026-02-07 15:26:27 status half-installed openssl:amd64 3.0.13-0ubuntu3.6
+2026-02-07 15:26:27 status triggers-pending man-db:amd64 2.12.0-4build2
+2026-02-07 15:26:27 status unpacked openssl:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 startup packages configure
+2026-02-07 15:26:27 configure openssl:amd64 3.0.13-0ubuntu3.7 <none>
+2026-02-07 15:26:27 status unpacked openssl:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 status half-configured openssl:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 status installed openssl:amd64 3.0.13-0ubuntu3.7
+2026-02-07 15:26:27 trigproc man-db:amd64 2.12.0-4build2 <none>
+2026-02-07 15:26:27 status half-configured man-db:amd64 2.12.0-4build2
+2026-02-07 15:26:30 status installed man-db:amd64 2.12.0-4build2
+2026-02-07 15:26:30 trigproc libc-bin:amd64 2.39-0ubuntu8.6 <none>
+2026-02-07 15:26:30 status half-configured libc-bin:amd64 2.39-0ubuntu8.6
+2026-02-07 15:26:30 status installed libc-bin:amd64 2.39-0ubuntu8.6
