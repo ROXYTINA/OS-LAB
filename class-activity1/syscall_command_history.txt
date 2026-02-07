@@ -1,0 +1,50 @@
+  888  ls
+  889  cd FirstServlet
+  890  cd src
+  891  javac -cp /usr/local/tomcat10/lib/servlet-api.jar:. com/example/FirstServlet.java -d ../classes
+  892  clear
+  893  cd ~/
+  894  cd /mnt/d/year4/kanha/SE/REAN/backend
+  895  mvn spring-boot:run
+  896  nvm clean install
+  897  mvn clean install
+  898  mvn spring-boot:run
+  899  mvn clean install
+  900  mvn spring-boot:run
+  901  sudo apt update
+  902  sudo apt upgrade -y
+  903  sudo apt install python3 python3-pip -y
+  904  mkdir class-activity1
+  905  cd class-activity1
+  906  nano syscall.c
+  907  gcc -o syscall.c
+  908  gcc syscall.c -o syscall
+  909  cd .
+  910  cd..
+  911  cd ..
+  912  sudo apt install gcc
+  913  sudo apt install gcc -y
+  914  gcc -version
+  915  gcc -v
+  916  gcc syscall.c -o syscall
+  917  cd class-activity1
+  918  gcc syscall.c -o syscall
+  919  gcc -o syscall.c
+  920  gcc syscall.c -o syscall./syscall
+  921  ls
+  922  tree
+  923  sudo rm syscall
+  924  ls
+  925  gcc syscall.c -o
+  926  gcc syscall.c -o syscall
+  927  nano syscall.c
+  928  gcc syscall.c -o syscall
+  929  ./syscall
+  930  nano copyfilesyscall.c
+  931  gcc copyfilesyscall.c -o copyfilesyscall
+  932  ./copyfilesyscall
+  933  sudo bash -c 'echo "Kanha said HI!" > result.txt'
+  934  ./copyfilesyscall
+  935  cat copyresult.txt
+  936  cd ..
+  937  history | tail -n 50 > /home/kanha/class-activity1/syscall_command_history.txt

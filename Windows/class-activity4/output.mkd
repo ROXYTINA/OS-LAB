@@ -1,0 +1,71 @@
+## Class Activity 4
+### Name: Sreng Sopheakanha e20220477
+
+1. Creating thread in Linux using Pthreads
+
+```c
+#include <stdio.h>
+#include <pthread.h>
+
+#define NUM_THREADS 5
+
+void* print_message(void* threadid) {
+    long tid = (long)threadid;
+    printf("Hello from thread %ld\n", tid);
+
+    // Keep thread alive for 5 seconds
+    sleep(50);
+
+    pthread_exit(NULL);
+}
+
+
+int main() {
+    pthread_t threads[NUM_THREADS];
+    int rc;
+    long t;
+
+    for (t = 0; t < NUM_THREADS; t++) {
+        printf("Creating thread %ld\n", t);
+        rc = pthread_create(&threads[t], NULL, print_message, (void*)t);
+        if (rc) {
+            printf("ERROR; return code from pthread_create() is %d\n", rc);
+            return -1;
+        }
+    }
+
+    // Wait for all threads to complete
+    for (t = 0; t < NUM_THREADS; t++) {
+        pthread_join(threads[t], NULL);
+    }
+
+    printf("All threads completed.\n");
+    return 0;
+}
+```
+
+output:
+
+![Alt text](img1.png)
+
+2. Creating thread in Windows (make sure to create more thread) and visualize in Process Explorer
+
+![Alt text](img2.png)
+
+3. Creating threads in Java using Java Executor Framework: SingleThread, CachedThreadPool and Visualize Fork-Join Parallelism in Java
+
+- Single thread
+
+output:
+
+![Alt text](img3.png)
+
+- Cached Thread pool
+
+output:
+
+![Alt text](img4.png)
+
+- Fork Pool
+
+![Alt text](img5.png)
